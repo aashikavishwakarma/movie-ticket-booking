@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Avengers",
+    "genre": "Action",
+    "duration": "2h 30min",
+    "image": "https://images3.alphacoders.com/112/1120625.jpg"
+  },
+  {
+    "id": 2,
+    "name": "3 Idiots",
+    "genre": "Comedy",
+    "duration": "2h 50min",
+    "image": "https://m.media-amazon.com/images/M/MV5BNzc4ZWQ3NmYtODE0Ny00YTQ4LTlkZWItNTBkMGQ0MmUwMmJlXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Dangal",
+    "genre": "Sports",
+    "duration": "2h 41min",
+    "image": "https://wallpapercave.com/wp/wp4627605.jpg"
+  },
+  {
+    "id": 1791224053224,
+    "name": "Pushpa2",
+    "genre": "Action",
+    "duration": "2hr 30 min",
+    "image": "https://media5.bollywoodhungama.in/wp-content/uploads/2024/12/Pushpa-2-The-Rule.jpg"
+  },
+  {
+    "id": 1791224279116,
+    "name": "Dhruva",
+    "genre": "Action",
+    "duration": "2hr  20min",
+    "image": "https://img1.hotstarext.com/image/upload/f_auto,t_web_m_1x/sources/r1/cms/prod/old_images/MOVIE/2697/1000192697/1000192697-h"
+  },
+  {
+    "id": 1791270336352,
+    "name": "kanchana-2",
+    "genre": "Horror",
+    "duration": "2hr 15min",
+    "image": "https://musiclounge.in/wp-content/uploads/2021/08/kanchana-2.jpg"
+  }
+]

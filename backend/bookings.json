@@ -1,0 +1,116 @@
+[
+  {
+    "id": 1791218819109,
+    "name": "jyoti",
+    "email": "jyoti12@gmail.com",
+    "phone": "1237894560",
+    "movie": {
+      "name": "Dangal",
+      "genre": "Sports, Drama",
+      "duration": "2h 41min"
+    },
+    "seats": [
+      "B2",
+      "B3"
+    ],
+    "total": 300,
+    "bookingDate": "5/10/2026, 10:16:59 pm"
+  },
+  {
+    "id": 1791219090467,
+    "name": "aashika",
+    "email": "ashu518@gmail.com",
+    "phone": "3698521470",
+    "movie": {
+      "name": "3 Idiots",
+      "genre": "Comedy, Drama",
+      "duration": "2h 50min"
+    },
+    "seats": [
+      "A1",
+      "A2",
+      "A3"
+    ],
+    "total": 450,
+    "bookingDate": "5/10/2026, 10:21:30 pm"
+  },
+  {
+    "id": 1791219796290,
+    "name": "priya",
+    "email": "priya@gmail.com",
+    "phone": "1592634870",
+    "movie": {
+      "name": "Avengers",
+      "genre": "Action",
+      "duration": "2h 30min"
+    },
+    "seats": [
+      "B2",
+      "B3"
+    ],
+    "total": 300,
+    "bookingDate": "5/10/2026, 10:33:16 pm"
+  },
+  {
+    "id": 1791221614362,
+    "bookingId": "MB-1791221614356",
+    "name": "vinod",
+    "email": "vinod12@gmail.com",
+    "phone": "11122365478",
+    "movie": {
+      "name": "3 Idiots",
+      "genre": "Comedy, Drama",
+      "duration": "2h 50min"
+    },
+    "seats": [
+      "C4",
+      "C5",
+      "B5",
+      "B6"
+    ],
+    "total": 600,
+    "paymentMethod": "UPI",
+    "paymentStatus": "Paid",
+    "bookingDate": "5/10/2026, 11:03:34 pm"
+  },
+  {
+    "id": 1791265032054,
+    "bookingId": "MB-1791265032050",
+    "name": "Aashika",
+    "email": "aashika@gmail.com",
+    "phone": "1234567890",
+    "movie": {
+      "name": "Pushpa2",
+      "genre": "Action",
+      "duration": "2hr 30 min"
+    },
+    "seats": [
+      "A1",
+      "A2"
+    ],
+    "total": 300,
+    "paymentMethod": "UPI",
+    "paymentStatus": "Paid",
+    "bookingDate": "6/10/2026, 11:07:12 am"
+  },
+  {
+    "id": 1791271148316,
+    "bookingId": "MB-1791271148309",
+    "name": "Aashika",
+    "email": "aashika@gmail.com",
+    "phone": "1234567890",
+    "movie": {
+      "name": "Avengers",
+      "genre": "Action",
+      "duration": "2h 30min"
+    },
+    "seats": [
+      "A1",
+      "A2"
+    ],
+    "total": 300,
+    "paymentMethod": "Card",
+    "paymentStatus": "Paid",
+    "bookingDate": "6/10/2026, 12:49:08 pm"
+  }
+]

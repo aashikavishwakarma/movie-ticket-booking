@@ -1,0 +1,530 @@
+/* =========================
+   ADMIN PAGE
+========================= */
+
+.admin-page {
+  min-height: 100vh;
+  background: #f5f6f8;
+  padding: 30px;
+  box-sizing: border-box;
+  color: #222;
+}
+
+/* =========================
+   HEADER
+========================= */
+
+.admin-header {
+  max-width: 1100px;
+  margin: 0 auto 30px;
+
+  background: #111827;
+
+  padding: 25px 30px;
+
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  box-sizing: border-box;
+}
+
+.admin-header h1 {
+  margin: 0 0 8px;
+
+  color: #ffffff !important;
+
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.admin-header p {
+  margin: 0;
+
+  color: #e5e7eb;
+
+  font-size: 18px;
+}
+
+/* Header Buttons */
+
+.admin-header > div:last-child {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.admin-header button {
+  border: none;
+
+  background: #ef1111;
+
+  color: #ffffff;
+
+  padding: 13px 20px;
+
+  border-radius: 7px;
+
+  font-size: 16px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: 0.2s;
+}
+
+.admin-header button:hover {
+  background: #c90000;
+  transform: translateY(-1px);
+}
+
+/* =========================
+   STATISTICS
+========================= */
+
+.stats-container {
+  max-width: 1100px;
+
+  margin: 0 auto 35px;
+
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 20px;
+}
+
+.stat-card {
+  background: #ffffff;
+
+  padding: 28px 20px;
+
+  border-radius: 12px;
+
+  text-align: center;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.stat-card h3 {
+  margin: 0 0 15px;
+
+  color: #374151;
+
+  font-size: 18px;
+}
+
+.stat-card h2 {
+  margin: 0;
+
+  color: #ef1111;
+
+  font-size: 32px;
+}
+
+/* =========================
+   MOVIE MANAGEMENT
+========================= */
+
+.movie-management {
+  max-width: 1100px;
+
+  margin: 0 auto 35px;
+
+  background: #ffffff;
+
+  padding: 30px;
+
+  border-radius: 12px;
+
+  box-sizing: border-box;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.section-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 25px;
+}
+
+.section-header h2 {
+  margin: 0;
+
+  color: #111827;
+
+  font-size: 28px;
+}
+
+.add-movie-btn {
+  border: none;
+
+  background: #ef1111;
+
+  color: white;
+
+  padding: 13px 20px;
+
+  border-radius: 7px;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.add-movie-btn:hover {
+  background: #c90000;
+}
+
+/* =========================
+   MOVIE FORM
+========================= */
+
+.movie-form {
+  background: #f9fafb;
+
+  padding: 25px;
+
+  border-radius: 10px;
+
+  margin-bottom: 30px;
+
+  border: 1px solid #e5e7eb;
+}
+
+.movie-form h3 {
+  margin-top: 0;
+
+  margin-bottom: 20px;
+
+  color: #111827;
+
+  font-size: 23px;
+}
+
+.movie-form label {
+  display: block;
+
+  margin: 14px 0 7px;
+
+  color: #374151;
+
+  font-weight: 600;
+}
+
+.movie-form input,
+.movie-form select {
+  width: 100%;
+
+  padding: 12px;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 7px;
+
+  font-size: 16px;
+
+  box-sizing: border-box;
+
+  outline: none;
+}
+
+.movie-form input:focus,
+.movie-form select:focus {
+  border-color: #ef1111;
+}
+
+.form-buttons {
+  display: flex;
+
+  gap: 12px;
+
+  margin-top: 22px;
+}
+
+.save-movie-btn,
+.cancel-btn {
+  border: none;
+
+  padding: 12px 20px;
+
+  border-radius: 7px;
+
+  font-size: 15px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.save-movie-btn {
+  background: #16a34a;
+
+  color: white;
+}
+
+.save-movie-btn:hover {
+  background: #15803d;
+}
+
+.cancel-btn {
+  background: #6b7280;
+
+  color: white;
+}
+
+.cancel-btn:hover {
+  background: #4b5563;
+}
+
+/* =========================
+   MOVIE CARDS
+========================= */
+
+.admin-movies {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 22px;
+}
+
+.admin-movie-card {
+  background: #ffffff;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+.admin-movie-card img {
+  width: 100%;
+
+  height: 330px;
+
+  object-fit: cover;
+
+  display: block;
+}
+
+.admin-movie-info {
+  padding: 18px;
+}
+
+.admin-movie-info h3 {
+  margin: 0 0 12px;
+
+  color: #111827;
+
+  font-size: 21px;
+}
+
+.admin-movie-info p {
+  margin: 7px 0;
+
+  color: #4b5563;
+
+  font-size: 15px;
+}
+
+.movie-actions {
+  display: flex;
+
+  gap: 10px;
+
+  margin-top: 18px;
+}
+
+.edit-btn,
+.delete-btn {
+  flex: 1;
+
+  border: none;
+
+  padding: 10px;
+
+  border-radius: 6px;
+
+  font-weight: 600;
+
+  cursor: pointer;
+}
+
+.edit-btn {
+  background: #2563eb;
+
+  color: white;
+}
+
+.edit-btn:hover {
+  background: #1d4ed8;
+}
+
+.delete-btn {
+  background: #ef1111;
+
+  color: white;
+}
+
+.delete-btn:hover {
+  background: #c90000;
+}
+
+/* =========================
+   BOOKINGS TABLE
+========================= */
+
+.booking-table-card {
+  max-width: 1100px;
+
+  margin: 0 auto 35px;
+
+  background: #ffffff;
+
+  padding: 30px;
+
+  border-radius: 12px;
+
+  box-sizing: border-box;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.booking-table-card h2 {
+  margin-top: 0;
+
+  margin-bottom: 20px;
+
+  color: #111827;
+
+  font-size: 28px;
+}
+
+.table-container {
+  width: 100%;
+
+  overflow-x: auto;
+}
+
+.booking-table-card table {
+  width: 100%;
+
+  border-collapse: collapse;
+
+  min-width: 750px;
+}
+
+.booking-table-card th {
+  background: #111827;
+
+  color: #ffffff;
+
+  padding: 14px;
+
+  text-align: left;
+
+  font-size: 14px;
+}
+
+.booking-table-card td {
+  padding: 14px;
+
+  border-bottom: 1px solid #e5e7eb;
+
+  color: #374151;
+
+  font-size: 14px;
+}
+
+.booking-table-card tr:hover td {
+  background: #f9fafb;
+}
+
+.no-bookings {
+  color: #6b7280;
+
+  text-align: center;
+
+  padding: 30px;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+  .stats-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .admin-movies {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 650px) {
+  .admin-page {
+    padding: 15px;
+  }
+
+  .admin-header {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 20px;
+
+    padding: 20px;
+  }
+
+  .admin-header h1 {
+    font-size: 25px;
+  }
+
+  .admin-header > div:last-child {
+    width: 100%;
+
+    flex-wrap: wrap;
+  }
+
+  .admin-header button {
+    flex: 1;
+  }
+
+  .stats-container {
+    grid-template-columns: 1fr;
+  }
+
+  .section-header {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 15px;
+  }
+
+  .add-movie-btn {
+    width: 100%;
+  }
+
+  .admin-movies {
+    grid-template-columns: 1fr;
+  }
+
+  .movie-management,
+  .booking-table-card {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f5f5;
+}
+
+/* ================= NAVBAR ================= */
+
+.navbar {
+  min-height: 70px;
+  background: #111827;
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 50px;
+}
+
+.navbar h2 {
+  font-size: 25px;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.nav-links a:hover {
+  color: #ff4d4d;
+}
+
+.nav-links button {
+  background: #e50914;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.nav-links button:hover {
+  background: #b20710;
+}
+
+
+/* ================= HERO ================= */
+
+.hero {
+  background: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+
+.explore-btn {
+  background: #e50914;
+  color: white;
+  border: none;
+  padding: 13px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.explore-btn:hover {
+  background: #b20710;
+}
+
+
+/* ================= MOVIES ================= */
+
+.movies-section {
+  padding: 40px 50px;
+}
+
+.movies-section h2 {
+  margin-bottom: 25px;
+  font-size: 30px;
+  color: #111827;
+}
+
+
+/* SEARCH + FILTER */
+
+.movie-filters {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.movie-filters input {
+  width: 300px;
+  padding: 13px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+.movie-filters input:focus {
+  border-color: #e50914;
+}
+
+.movie-filters select {
+  width: 180px;
+  padding: 13px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  background: white;
+  cursor: pointer;
+  outline: none;
+}
+
+.movie-filters select:focus {
+  border-color: #e50914;
+}
+
+
+/* MOVIE CARDS */
+
+.movie-container {
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.movie-card {
+  width: 280px;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: 0.3s;
+}
+
+.movie-card:hover {
+  transform: translateY(-5px);
+}
+
+.movie-card img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+}
+
+.movie-info {
+  padding: 18px;
+}
+
+.movie-info h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #111827;
+}
+
+.movie-info p {
+  color: #555;
+  margin-bottom: 7px;
+}
+
+.book-btn {
+  width: 100%;
+  margin-top: 12px;
+  padding: 12px;
+
+  background: #e50914;
+  color: white;
+
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.book-btn:hover {
+  background: #b20710;
+}
+
+.no-movies {
+  font-size: 18px;
+  color: #555;
+  padding: 30px;
+}
+
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0 20px;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    gap: 15px;
+  }
+
+  .nav-links {
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-links a {
+    font-size: 14px;
+  }
+
+  .hero h1 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 16px;
+  }
+
+  .movies-section {
+    padding: 30px 20px;
+  }
+
+  .movie-container {
+    justify-content: center;
+  }
+}
